@@ -3,7 +3,8 @@ import time
 import XInput
 from math import atan2, sqrt, pi, sin, cos
 
-HOST = "10.0.0.8"
+# HOST = "10.0.0.8"
+HOST = "127.0.0.1"
 PORT = 4210
 CONTROLER_ID = 0
 VOLTAGE_MULTIPLIER = 500
