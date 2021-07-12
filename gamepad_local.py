@@ -4,7 +4,7 @@ import socket
 controllers = XInput.get_connected()
 print(controllers)
 
-HOST = "172.20.39.154"
+HOST = "127.0.0.1"
 PORT = 44555
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 sock.connect((HOST,PORT))
