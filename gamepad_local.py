@@ -6,7 +6,7 @@ print(controllers)
 CONTROLLER = controllers.index(True)
 print(CONTROLLER)
 
-HOST = "10.0.0.16"
+HOST = "10.0.0.23"
 PORT = 44555
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 sock.connect((HOST,PORT))
